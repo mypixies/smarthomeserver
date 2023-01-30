@@ -87,7 +87,7 @@ services:
   homeassistant:
     container_name: homeassistant
     restart: unless-stopped
-    image: homeassistant/homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
     #devices:
     #  - /dev/ttyUSB0:/dev/ttyUSB0
     #  - /dev/ttyUSB1:/dev/ttyUSB1
